@@ -7,7 +7,15 @@
     <title>week one code challenge</title>
 </head>
 <body>
-    <input type="number" placeholder="Enter student marks" id="mark">
+    <form action="">
+        <input type="number" placeholder="Enter student marks" min="0" max="100" class="mark">
+        <button type="submit"> Submit</button>
+    </form>    
+    <div>
+        <h1>The student Grade is:
+            <h2 id="displayGrade"></h2>
+        </h1>
+    </div>
     <script src="./studentGradeGenerator/index.js"></script>
 </body>
 </html>
